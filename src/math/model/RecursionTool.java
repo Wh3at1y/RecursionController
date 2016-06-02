@@ -27,4 +27,14 @@ public class RecursionTool
 				else	//Recursive Case
 					return position * factorialNumber(position - 1);
 			}
+		
+		public double getFactorialNumber(int num)
+		{
+			return factorialNumber(num);
+		}
+		
+		public double getFibNumber(int num)
+		{
+			return fibonacciNumber(num);
+		}
 	}

@@ -5,7 +5,6 @@ import math.view.RecursionFrame;
 
 public class RecursionController
 	{
-		private RecursionFrame baseFrame;
 		private RecursionTool mathTool;
 		
 		private String calculatedValue;
@@ -13,7 +12,7 @@ public class RecursionController
 		public RecursionController()
 		{
 			mathTool = new RecursionTool();
-			baseFrame = new RecursionFrame(this);
+			new RecursionFrame(this);
 			
 			calculatedValue = "";
 		}
